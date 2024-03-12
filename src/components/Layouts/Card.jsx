@@ -27,12 +27,12 @@ function Cards({ image, rating, title, paragraph, price, renderRatingIcons }) {
               <div className="menu_price">
                   <h5 className="mb-0">${price}</h5>
               </div>
-              <div className="add_to_cart">
+              {/* <div className="add_to_cart">
                   <Link to="/">
                   <i class="bi bi-bag me-2"></i>
                   Add to Cart
                   </Link>
-              </div>
+              </div> */}
           </div>
       </Card.Body>
     </Card>

@@ -1,6 +1,5 @@
-import React from 'react'
-import { Col, Container, Row } from 'react-bootstrap';
-import { Link } from "react-router-dom";
+import React from 'react';
+import { Col, Container, Row } from "react-bootstrap";
 import Image1 from "../../assets/images/menu/menu-1.jpg";
 import Image2 from "../../assets/images/menu/menu-2.jpg";
 import Image3 from "../../assets/images/menu/menu-3.jpg";
