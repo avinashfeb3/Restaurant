@@ -1,0 +1,118 @@
+// About CSS
+.about_wrapper {
+  position: relative;
+  background: url("../../assets/images/about/about-page-img.jpg") no-repeat
+    center center;
+  background-size: cover;
+  background-attachment: fixed;
+  padding-top: 170px;
+  padding-bottom: 90px;
+  height: 437px;
+
+  h2 {
+    font-size: 2.5rem;
+    line-height: 1;
+    margin-top: 3.25rem;
+    margin-bottom: 1.25rem;
+    letter-spacing: 0.1875rem;
+    color: var(--white);
+  }
+}
+.about_intro {
+  img {
+    height: 94.5%;
+    width: 100%;
+  }
+  .about_intro_text {
+    p {
+      font-size: 17.5px;
+      line-height: 1.5;
+      margin-bottom: 2.25rem;
+      padding-right: 1.875rem;
+      font-weight: 300;
+    }
+  }
+}
+.team_section {
+  .card {
+    .team-img{
+      width: 15rem;
+      height: 15rem;
+      margin: 0 auto;
+      border-radius: 50%;
+      border: 0.5rem solid var(--bg-coffee);
+
+      img{
+        border-radius: 50%;
+      }
+    }
+    team-details{
+        h5{
+            font-weight: 800;
+             color: var(--black-color);
+            margin-bottom: 1rem;
+            padding-top: 1.5rem;
+        }
+        p{
+            color: var(--black-color);
+            margin: 0;
+        }
+    }
+  }
+}
+
+// Mobile Media Responsive
+
+/* Media Query 1200px */
+@media (max-width: 1200px) {
+  .about_intro {
+    img {
+      height: 100%;
+      width: 100%;
+    }
+    .about_intro_text {
+      p {
+        margin: -15px 20px;
+        padding: 20px 15px;
+      }
+    }
+  }
+}
+
+/* Media Query 992px*/
+@media (max-width: 992px) {
+  .about_intro {
+    .about_intro_text {
+      p {
+        font-size: 1.2rem;
+        padding: 20px 15px;
+      }
+    }
+  }
+}
+
+/* MEdia Query 768px */
+@media(max-width:768px){
+    .team_section{
+        .card{
+            flex-basis: calc(50% - 1rem);
+        }
+    }
+}
+
+/* Media Query 767px */
+@media (max-width: 767px) {
+  .about_wrapper {
+    h2 {
+      margin: 4.5rem 0 1.25rem 0;
+      font-size: 56px;
+      text-align: center;
+      line-height: 1.3;
+    }
+    .btn_red {
+      display: block;
+      margin: 0 auto; /* Center align */
+      text-align: center; /* Center the text within the link */
+    }
+  }
+}

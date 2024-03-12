@@ -1,0 +1,106 @@
+.services_text{
+    h3{
+        font-size: 2.5rem;
+        line-height: 1;
+        margin-top: 3.25rem;
+         margin-bottom: 1.25rem;
+        letter-spacing: 0.1875rem;
+        color: #7a4207;
+    }
+    p{
+        font-size: 17px;
+        line-height: 1;
+        letter-spacing: 0.13rem;
+        margin-top: 1.375rem;
+        margin-bottom: 1.25rem;
+    }
+    ul li strong{
+        color: #eca457;
+        font-size: 18px;
+        font-weight: 500;
+        letter-spacing: 0.13rem;
+        line-height: 1;
+    }
+    li::marker {
+        /* This selects the marker (bullet) of list items */
+        color: #eca457;/* Change the color to your desired color */
+        font-size: 18px;
+    }
+    span{
+        font-size: 18px;
+        font-weight: 300;
+        line-height: 1;
+        color: var(--light-black);
+    }
+}
+
+// Media Query for Mobile responsive
+
+// Media Queries for 1200px
+@media(max-width:1200px){
+    .services_text{
+        h3 {
+            margin: 4.5rem 0 1.25rem 0;
+            font-size: 76px;
+            line-height: 1.3;
+          }
+          ul li strong{
+            margin: 4.5rem 0 1.25rem 0;
+            font-size: 32px;
+            line-height: 1.3;
+          }
+          span{
+            margin: 4.5rem 0 1.25rem 0;
+            font-size: 32px;
+            line-height: 1.3;
+          }
+    }
+}
+
+
+// Media Queries for 992px
+@media(max-width:767px){
+    .services_text{
+        h3 {
+            margin: 4.5rem 0 1.25rem 0;
+            font-size: 56px;
+            line-height: 1.3;
+          }
+          ul li strong{
+            margin: 4.5rem 0 1.25rem 0;
+            font-size: 22px;
+            line-height: 1.3;
+          }
+          span{
+            margin: 4.5rem 0 1.25rem 0;
+            font-size: 22px;
+            line-height: 1.3;
+          }
+    }
+}
+
+// Media Queries for 767px
+@media(max-width:767px){
+    .services_text{
+        h3 {
+            margin: 4.5rem 0 1.25rem 1.25rem;
+            font-size: 36px;
+            line-height: 1.3;
+          }
+        p{
+            margin: 20px 0 20px 27px;
+            font-size: 17.5px;
+            line-height: 1.3;
+          }
+          ul li strong{
+            margin: 4.5rem 0 1.25rem 0;
+            font-size: 17px;
+            line-height: 1.3;
+          }
+          span{
+            margin: 4.5rem 0 1.25rem 0;
+            font-size: 17px;
+            line-height: 1.3;
+          }
+    }
+}
