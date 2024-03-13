@@ -3,26 +3,6 @@ import "./Menu.scss";
 import Layout from "../../components/Layouts/layout";
 import { Col, Container, Row } from "react-bootstrap";
 import Cards from "../../components/Layouts/Card";
-import Image1 from "../../assets/images/menu/menu-1.jpg";
-import Image2 from "../../assets/images/menu/menu-2.jpg";
-import Image3 from "../../assets/images/menu/menu-3.jpg";
-import Image4 from "../../assets/images/menu/menu-4.jpg";
-import Image5 from "../../assets/images/menu/menu-5.jpg";
-import Image6 from "../../assets/images/menu/menu-6.jpg";
-import Image7 from "../../assets/images/menu/menu-7.jpg";
-import Image8 from "../../assets/images/menu/menu-8.jpg";
-import Image9 from "../../assets/images/menu/menu-9.jpg";
-import Image10 from "../../assets/images/menu/menu-10.jpg";
-import Image11 from "../../assets/images/menu/menu-11.jpg";
-import Image12 from "../../assets/images/menu/menu-12.jpg";
-import Image13 from "../../assets/images/menu/menu-13.jpg";
-import Image14 from "../../assets/images/menu/menu-14.jpg";
-import Image15 from "../../assets/images/menu/menu-15.jpg";
-import Image16 from "../../assets/images/menu/menu-16.jpg";
-import Image17 from "../../assets/images/menu/menu-17.jpg";
-import Image18 from "../../assets/images/menu/menu-18.jpg";
-import Image19 from "../../assets/images/menu/menu-19.jpg";
-import Image20 from "../../assets/images/menu/menu-20.jpg";
 
 // Menu Data
 
@@ -30,7 +10,7 @@ import Image20 from "../../assets/images/menu/menu-20.jpg";
 const breakfastData = [
     {
       id: "0001",
-      image: Image1,
+      image: new URL('../../assets/images/menu/menu-1.jpg', import.meta.url).href,
       title: "Smoked Bacon Chicken",
       paragraph: "Indulge in the succulent bliss of smoked bacon-infused chicken, a mouthwatering.",
       rating: 5,
@@ -38,7 +18,7 @@ const breakfastData = [
     },
     {
       id: "0002",
-      image: Image2,
+      image: new URL('../../assets/images/menu/menu-2.jpg', import.meta.url).href,
       title: "Bacon Sausage",
       paragraph: "Savor the irresistible combination of smoky bacon and savory sausage.",
       rating: 4.5,
@@ -46,7 +26,7 @@ const breakfastData = [
     },
     {
       id: "0003",
-      image: Image3,
+      image: new URL('../../assets/images/menu/menu-3.jpg', import.meta.url).href,
       title: "Bacon Fried Tomato",
       paragraph: "Experience the perfect marriage of crispy bacon and juicy tomatoes.",
       rating: 4,
@@ -54,7 +34,7 @@ const breakfastData = [
     },
     {
       id: "0004",
-      image: Image4,
+      image: new URL('../../assets/images/menu/menu-4.jpg', import.meta.url).href,
       title: "Bacon Fried Mushrooms",
       paragraph: "Savor bacon-fried mushrooms: crispy, savory, and irresistible.",
       rating: 3.5,
@@ -62,7 +42,7 @@ const breakfastData = [
     },
     {
       id: "0005",
-      image: Image5,
+      image: new URL('../../assets/images/menu/menu-5.jpg', import.meta.url).href,
       title: "Bacon Black Pudding",
       paragraph: "Crumbled bacon infused into savory black pudding, a tantalizing marriage of smoky and rich flavors.",
       rating: 3.0,
@@ -70,7 +50,7 @@ const breakfastData = [
     },
     {
       id: "0006",
-      image: Image6,
+      image: new URL('../../assets/images/menu/menu-6.jpg', import.meta.url).href,
       title: "Bacon Baked Beans",
       paragraph: "Bacon-studded baked beans, a hearty embrace of smoky indulgence in every spoonful.",
       rating: 3,
@@ -78,7 +58,7 @@ const breakfastData = [
     },
     {
       id: "0007",
-      image: Image7,
+      image: new URL('../../assets/images/menu/menu-7.jpg', import.meta.url).href,
       title: "Bacon Eggs",
       paragraph: "Start your day with sizzling bacon paired with perfectly scrambled or sunny-side-up eggs.",
       rating: 2.5,
@@ -86,7 +66,7 @@ const breakfastData = [
     },
     {
       id: "0008",
-      image: Image8,
+      image: new URL('../../assets/images/menu/menu-8.jpg', import.meta.url).href,
       title: "Avocado Toast Poached Egg",
       paragraph: "Savor creamy avocado toast crowned with a perfect poached egg—a breakfast delight.",
       rating: 2.0,
@@ -94,7 +74,7 @@ const breakfastData = [
     },
     {
       id: "0009",
-      image: Image9,
+      image: new URL('../../assets/images/menu/menu-9.jpg', import.meta.url).href,
       title: "Avocado Toast With Onion",
       paragraph: "A savory symphony of creamy avocado and caramelized onion, a delectable twist on a classic favorite.",
       rating: 2.0,
@@ -102,7 +82,7 @@ const breakfastData = [
     },
     {
       id: "0010",
-      image: Image10,
+      image: new URL('../../assets/images/menu/menu-10.jpg', import.meta.url).href,
       title: "Avocado Toast With Tomatoes",
       paragraph: "A harmonious blend of creamy avocado and tangy tomatoes, elevating toast to a gourmet delight.",
       rating: 2.0,
@@ -110,7 +90,7 @@ const breakfastData = [
     },
     {
       id: "0011",
-      image: Image11,
+      image: new URL('../../assets/images/menu/menu-11.jpg', import.meta.url).href,
       title: "Avocado Toast Bread",
       paragraph: "The perfect canvas for creamy avocado goodness, a satisfying crunch in every bite.",
       rating: 2.0,
@@ -118,7 +98,7 @@ const breakfastData = [
     },
     {
       id: "0012",
-      image: Image12,
+      image: new URL('../../assets/images/menu/menu-12.jpg', import.meta.url).href,
       title: "Burrito Tortilla",
       paragraph: "The warm embrace that holds together a flavorful fiesta of fillings, a taste of Mexico in every fold.",
       rating: 3.5,
@@ -126,7 +106,7 @@ const breakfastData = [
     },
     {
       id: "0013",
-      image: Image13,
+      image: new URL('../../assets/images/menu/menu-13.jpg', import.meta.url).href,
       title: "Burrito Egg",
       paragraph: "A protein-packed delight, adding a fluffy richness to every savory bite of your burrito adventure.",
       rating: 3.0,
@@ -134,7 +114,7 @@ const breakfastData = [
     },
     {
       id: "0014",
-      image: Image14,
+      image: new URL('../../assets/images/menu/menu-14.jpg', import.meta.url).href,
       title: "Burrito Cheese",
       paragraph: "The melty, gooey goodness that binds together a symphony of flavors in every savory bite.",
       rating: 4.0,
@@ -142,7 +122,7 @@ const breakfastData = [
     },
     {
       id: "0015",
-      image: Image15,
+      image: new URL('../../assets/images/menu/menu-15.jpg', import.meta.url).href,
       title: "Burrito Potatoes",
       paragraph: "Savory potatoes wrapped snugly in a warm tortilla embrace, creating the ultimate comfort fusion.",
       rating: 2.5,
@@ -150,7 +130,7 @@ const breakfastData = [
     },
     {
       id: "0016",
-      image: Image16,
+      image: new URL('../../assets/images/menu/menu-16.jpg', import.meta.url).href,
       title: "Burrito Pork Meat",
       paragraph: "Indulge in our tantalizing Burrito Pork Meat: tender, flavorful pork wrapped in a soft tortilla for a mouthwatering.",
       rating: 3.5,
@@ -162,7 +142,7 @@ const breakfastData = [
 const lunchData = [
     {
       id: "0017",
-      image: Image17,
+      image: new URL('../../assets/images/menu/menu-17.jpg', import.meta.url).href,
       title: "Chicken Breast",
       paragraph: "Juicy and lean chicken breast, perfect for grilling, baking, or stir-frying.",
       rating: 5,
@@ -170,7 +150,7 @@ const lunchData = [
     },
     {
       id: "0018",
-      image: Image18,
+      image: new URL('../../assets/images/menu/menu-18.jpg', import.meta.url).href,
       title: "Romaine Lettuce",
       paragraph: "Crisp and refreshing Romaine Lettuce, ideal for salads, wraps, and sandwiches.",
       rating: 5,
@@ -178,7 +158,7 @@ const lunchData = [
     },
     {
       id: "0019",
-      image: Image19,
+      image: new URL('../../assets/images/menu/menu-19.jpg', import.meta.url).href,
       title: "Croutons",
       paragraph: "Crunchy flavor boosters for salads, soups, and snacks.",
       rating: 5,
@@ -186,19 +166,68 @@ const lunchData = [
     },
     {
       id: "0020",
-      image: Image20,
+      image: new URL('../../assets/images/menu/menu-20.jpg', import.meta.url).href,
       title: "Parmesan",
       paragraph: "A savory burst of aged perfection for your culinary creations.",
       rating: 5,
       price: 99.15,
     },
+    {
+      id: "0021",
+      image: new URL('../../assets/images/menu/menu-21.jpg', import.meta.url).href,
+      title: "Spaghetti",
+      paragraph: "Long, thin pasta strands, typically served with a variety of sauces and toppings.",
+      rating: 3.5,
+      price: 99.15,
+    },
+    {
+      id: "0022",
+      image: new URL('../../assets/images/menu/menu-22.jpg', import.meta.url).href,
+      title: "Pancetta",
+      paragraph: "Italian cured pork belly, seasoned with salt and spices, used to add rich flavor.",
+      rating: 3,
+      price: 99.15,
+    },
+    {
+      id: "0023",
+      image: new URL('../../assets/images/menu/menu-23.jpg', import.meta.url).href,
+      title: "Spaghetti Carbonara Garlic",
+      paragraph: "A rich blend of creamy goodness with a garlicky twist.",
+      rating: 3.3,
+      price: 99.15,
+    },
+    {
+      id: "0024",
+      image: new URL('../../assets/images/menu/menu-24.jpg', import.meta.url).href,
+      title: "Spaghetti Carbonara Eggs",
+      paragraph: "Traditional Italian pasta infused with creamy, egg-enriched sauce.",
+      rating: 4.2,
+      price: 99.15,
+    },
+    {
+      id: "0025",
+      image: new URL('../../assets/images/menu/menu-25.jpg', import.meta.url).href,
+      title: "Spaghetti Carbonara Parmesan",
+      paragraph: "A decadent blend of creamy sauce and aged Parmesan cheese.",
+      rating: 4.5,
+      price: 99.15,
+    },
+    {
+      id: "0026",
+      image: new URL('../../assets/images/menu/menu-27.jpg', import.meta.url).href,
+      title: "Spaghetti Carbonara Pepper",
+      paragraph: "A zesty twist on a classic dish, featuring the bold flavors of cracked black pepper.",
+      rating: 4,
+      price: 99.15,
+    },
+  
   ];
 
 //   Dinner Mock Data
 const dinnerData = [
     {
       id: "0017",
-      image: Image17,
+      image: new URL('../../assets/images/menu/menu-3.jpg', import.meta.url).href,
       title: "Chicken Breast",
       paragraph: "Savor the succulence of our premium Chicken Breast: tender, juicy, and packed with wholesome flavor, perfect for elevating any meal.",
       rating: 5,
@@ -210,7 +239,7 @@ const dinnerData = [
 const dessertData = [
     {
       id: "0017",
-      image: Image17,
+      image: new URL('../../assets/images/menu/menu-3.jpg', import.meta.url).href,
       title: "Chicken Breast",
       paragraph: "Savor the succulence of our premium Chicken Breast: tender, juicy, and packed with wholesome flavor, perfect for elevating any meal.",
       rating: 5,

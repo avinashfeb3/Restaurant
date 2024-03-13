@@ -1,6 +1,6 @@
 import React from "react";
 import { Col, Card } from "react-bootstrap";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 function Cards({ image, rating, title, paragraph, price, renderRatingIcons }) {
   return (
