@@ -31,6 +31,14 @@ function Footer() {
           <Row>
             <Col sm={6} lg={3} className="mb-4 mb-lg-0">
               <div className="text-center">
+                <h5>About Us</h5>
+                <p>
+                At Borcelle Catering, we believe that every event is an opportunity to create unforgettable culinary experiences.
+                </p>
+              </div>
+            </Col>
+            <Col sm={6} lg={3} className="mb-4 mb-lg-0">
+              <div className="text-center">
                 <h5>Location</h5>
                 <p>5505 Waterford District</p>
                 <p>Dr, Miami, FL 33126</p>
@@ -45,7 +53,7 @@ function Footer() {
                 <p>Sunday: 12:00PM - 5:00PM</p>
               </div>
             </Col>
-            <Col sm={6} lg={3} className="mb-4 mb-lg-0">
+            {/* <Col sm={6} lg={3} className="mb-4 mb-lg-0">
               <div className="text-center">
                 <h5>Order Now</h5>
                 <p>Quaerat neque purus ipsum</p>
@@ -55,11 +63,10 @@ function Footer() {
                   </Link>
                 </p>
               </div>
-            </Col>
+            </Col> */}
             <Col sm={6} lg={3} className="mb-4 mb-lg-0">
               <div className="text-center">
                 <h5>Follow Us</h5>
-                <p>Quaerat neque purus ipsum</p>
                 <ul className="list-unstyled text-center mt-2">
                   <li>
                     <Link to="/">
