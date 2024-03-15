@@ -1,22 +1,32 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import Layout from "../../components/Layouts/layout";
+import './Notfound.scss';
+import Notfound from '/src/assets/images/notfound/notfound.png';
+
 function NotFound() {
   return (
     <>
-      <Layout>
-        <Container>
-          <Row>
-            <Col lg={12} md={6} className="text-center mt-5 mb-5 pt-5 pb-5">
-              <h1>404</h1>
-              <h2>Page Not Found</h2>
-              <p>The page you are looking for does not exist.</p>
-              <Link to= "/" className="btn order_now">Back to Homepage</Link>
-            </Col>
-          </Row>
-        </Container>
-      </Layout>
+      <section className="notfound_wrapper">
+          <Container>
+            <Row className="align-items-center justify-content-center">
+              <Col lg={12} md={6} sm={4} className="text-center">
+                <img
+                  src={Notfound}
+                  alt="notfound"
+                  className="notfound_img"
+                />
+              </Col>
+            </Row>
+            <Row>
+              <Col lg={12} md={6} sm={4}className="text-center mt-3 mb-3 pt-3 pb-3">
+                <Link to="/">
+                  <button className="btn order_now">Back to Homepage</button>
+                </Link>
+              </Col>
+            </Row>
+          </Container>
+        </section>
     </>
   );
 }
