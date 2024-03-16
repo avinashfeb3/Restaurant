@@ -1,0 +1,25 @@
+.gallery_wrapper{
+    h4{
+        font-size: 2.5rem;
+        line-height: 1;
+        margin-top: 3.25rem;
+         margin-bottom: 1.25rem;
+        letter-spacing: 0.1875rem;
+        color: #7a4207;
+    }
+}
+.modal-content.custom-modal-content.text-center {
+    outline: none;
+    height: 100%;
+    margin-top: 250px;
+}
+button.btn.btn-light{
+   background-color: var(--light-red);
+   color: var(--white);
+   font-size: 18px;
+   line-height: 1.3;
+   &:hover{
+    background-color: var(--yellow);
+    color: var(--white);
+   }
+}

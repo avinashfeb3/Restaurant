@@ -75,7 +75,6 @@ a{
 ::-webkit-scrollbar-thumb{
   background-color: var(--yellow);
 }
-
 /* Common Button */
 .order_now{
    color: var(--light-black);
