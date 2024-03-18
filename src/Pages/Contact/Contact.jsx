@@ -82,7 +82,7 @@ function Contact() {
                         <Form.Control
                           as="textarea"
                           placeholder="Type your message in here..."
-                          style={{ height: "100px" }}
+                          style={{ height: "500px" }}
                           className="custom-form-control"
                         />
                       </FloatingLabel>
