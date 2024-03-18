@@ -401,3 +401,14 @@
     }
   }
 }
+
+// Media Query for 576px
+@media(max-width: 576px){
+  
+    // Hero Section CSS
+    .hero_section{
+        .rounded-image{
+          margin-top: 43px;
+        }
+    }
+}
